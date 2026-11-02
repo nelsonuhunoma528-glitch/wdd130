@@ -3,10 +3,20 @@ main {
     padding: 10px;
 }
 
-nav a {
+nav {
     border: 1px solid grey;
     padding: 10px;
-    background-color: #eee;
+    background-color: blue;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: lightblue;
 }
 
 aside {
