@@ -1,8 +1,9 @@
 main {
     max-width: 840px;
+    padding: 10px;
 }
 
-header {
+nav a {
     border: 1px solid grey;
     padding: 10px;
     background-color: #eee;
