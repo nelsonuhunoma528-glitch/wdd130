@@ -2,7 +2,6 @@
     --primary-color: #064663;
     --secondary-color: #55b8b0;
     --accent1-color: #183b2b;
-    --accent2-color: #f4c95d;
 
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
@@ -19,12 +18,15 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -60,7 +62,9 @@ nav a {
     font-weight: bold;
 }
 
-p, section, article {
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -115,8 +119,6 @@ footer {
     padding: 15px;
 }
 
-
-/* Social Media Footer */
 .socialmedia {
     display: flex;
     align-items: center;
@@ -136,7 +138,6 @@ footer {
     margin: 0;
     border: none;
 }
-
 
 .history {
     display: grid;
@@ -159,7 +160,6 @@ footer {
     width: 100%;
     height: auto;
 }
-
 
 .adventures {
     display: grid;
