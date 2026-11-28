@@ -188,49 +188,53 @@ footer {
     font-weight: bold;
 }
 
-.employee-profiles {
+/* CONTACT PAGE */
+
+.contact-info {
+    margin: 16px 0;
+    padding: 8px;
+}
+
+.contact-info h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.company-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-details p {
+    margin: 5px;
+    padding: 0;
+}
+
+.contact-layout {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    text-align: center;
+    align-items: start;
 }
 
-.employee-profiles h2 {
-    grid-column: 1 / 4;
-    text-align: center;
-}
-
-.employee-profiles figure {
-    margin: 0;
-}
-
-.employee-profiles img {
+.contact-layout iframe {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-}
-
-.employee-profiles figcaption {
-    margin-top: 8px;
-    font-weight: bold;
+    height: 300px;
+    border: 0;
 }
 
 .contact-form {
-    max-width: 600px;
-    margin: 30px auto;
-}
-
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
 }
 
 .contact-form form {
     display: grid;
     gap: 12px;
-    padding: 20px;
-    border: 2px solid var(--secondary-color);
-    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
 }
 
 .contact-form input[type="text"],
@@ -271,4 +275,35 @@ footer {
 
 .contact-form button:hover {
     background-color: var(--accent1-color);
+}
+
+/* EMPLOYEE PROFILES */
+
+.employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+}
+
+.employee-profiles h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.employee-profiles figure {
+    margin: 0;
+}
+
+.employee-profiles img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.employee-profiles figcaption {
+    margin-top: 8px;
+    font-weight: bold;
 }
